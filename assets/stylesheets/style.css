@@ -1,0 +1,51 @@
+body {
+	background: #0072FF;
+}
+body h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+}
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+body ul .draggable {
+	will-change: transform;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	height: 50px;
+	list-style-type: none;
+	margin: 10px;
+	background-color: white;
+	color: #0072ff;
+	width: 250px;	position: relative;
+	line-height: 3.2;
+	padding-left: 10px;
+	cursor: move;
+	transition: all 200ms;
+	user-select: none;
+	margin: 10px auto;
+	position: relative;
+}
+body .adder .input {
+  outline: none;
+  border: 1px solid white;
+  background-color: #0072ff;
+  color: white;
+  height: 50px;
+  width: 250px;
+  padding-left: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+	margin-left: -5px;
+}
+.adder {
+	 width: 240px;
+	margin: 50px auto;
+	padding-left: 10px;
+	position: relative; 
+}
